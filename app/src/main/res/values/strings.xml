@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">WhereToWatch</string>
+    <string name="empty_watch_list">Your WatchList is currently empty!</string>
+    <string name="add_watch_list">Add to WatchList</string>
+    <string name="remove_watch_list">Remove from WatchList</string>
+    <string name="released">Released: </string>
+    <string name="director">Director: </string>
+    <string name="genre">Genre: </string>
+    <string name="search">Search</string>
+    <string name="browse">Browse</string>
+    <string name="watch_list">WatchList</string>
+    <string name="about">About</string>
+    <string name="description">Description</string>
+    <string name="starring">Starring</string>
+    <string name="where_to_watch">Where to Watch</string>
+    <string name="search_instructions">Enter a Move or Television title</string>
+    <string name="all">All</string>
+    <string name="movie">Movie</string>
+    <string name="television">Television</string>
+    <string name="browse_instructions">Browse by selecting one or more streaming services</string>
+
+
+</resources>

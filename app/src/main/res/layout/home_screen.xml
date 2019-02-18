@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:fillViewport="true"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:background="@color/appBackground">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5"
+            android:src="@drawable/wheretowatch_logo"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="3"
+            android:fontFamily="@font/palanquin_dark"
+            android:text="@string/search_instructions"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textColor="@color/textPrimary"/>
+        <EditText
+            android:id="@+id/userTitleSearch"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:backgroundTint="@color/textPrimary"
+            android:textColor="@color/textSecondary"/>
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/allRadioButton"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/all"
+                    android:layout_weight="2"/>
+                <RadioButton
+                    android:id="@+id/movieRadioButton"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/movie"
+                    android:layout_weight="2"/>
+                <RadioButton
+                    android:id="@+id/tvRadioButton"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/television"
+                    android:layout_weight="2"/>
+
+        </RadioGroup>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:onClick="titleSearch"
+            android:text="@string/search"/>
+
+        <ListView
+            android:id="@+id/title_list"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="14"/>
+
+    </LinearLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/appBackground">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/watch_list"
+        android:fontFamily="@font/palanquin_dark"
+        android:textSize="24sp"
+        android:textColor="@color/textPrimary"
+        android:layout_marginStart="10dp"/>
+    <TextView
+        android:id="@+id/empty_watch_list_tv"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textSize="14sp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginStart="5dp"/>
+    <ListView
+        android:id="@+id/watch_list_listview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        />
+</LinearLayout>
